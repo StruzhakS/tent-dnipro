@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tent-dnipro/static/css/main.d3e072b4.css",
-    "main.js": "/tent-dnipro/static/js/main.2d69ef5f.js",
+    "main.css": "/tent-dnipro/static/css/main.125aa021.css",
+    "main.js": "/tent-dnipro/static/js/main.4b1008d9.js",
     "static/media/secondaryImg.jpg": "/tent-dnipro/static/media/secondaryImg.4ae0a5b716a6ec038860.jpg",
     "static/media/heroImage.jpg": "/tent-dnipro/static/media/heroImage.69aa185e9ec040b8cd16.jpg",
     "static/media/phone-tent.svg": "/tent-dnipro/static/media/phone-tent.e4c0e3810ec832ae02c03a2c65ca8082.svg",
     "static/media/logo-tent.svg": "/tent-dnipro/static/media/logo-tent.e32bde1a30b5977a02fda95f22667e6e.svg",
     "index.html": "/tent-dnipro/index.html",
-    "main.d3e072b4.css.map": "/tent-dnipro/static/css/main.d3e072b4.css.map",
-    "main.2d69ef5f.js.map": "/tent-dnipro/static/js/main.2d69ef5f.js.map"
+    "main.125aa021.css.map": "/tent-dnipro/static/css/main.125aa021.css.map",
+    "main.4b1008d9.js.map": "/tent-dnipro/static/js/main.4b1008d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3e072b4.css",
-    "static/js/main.2d69ef5f.js"
+    "static/css/main.125aa021.css",
+    "static/js/main.4b1008d9.js"
   ]
 }
