@@ -20,7 +20,7 @@ const HeroBlock = () => {
           <h1 className={s.title}>
             Ремонт <span className={s.styledTitle}>ТЕНТА</span>
           </h1>{' '}
-          <svg
+          {/* <svg
             height="20"
             width="100%"
             style={{ position: 'absolute', bottom: 0, left: 0 }}
@@ -35,7 +35,7 @@ const HeroBlock = () => {
             />
             <circle cx="10" cy="15" r="0.5" fill="black" />
             <circle cx="calc(100% - 10px)" cy="15" r="0.5" fill="black" />
-          </svg>
+          </svg> */}
         </div>
 
         <h2 className={s.subTitle}>ЗА 15 МИНУТ, БЕЗ ОЧЕРЕДИ!!!</h2>

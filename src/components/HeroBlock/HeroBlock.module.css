@@ -59,9 +59,9 @@
 
 .linkWrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 10px;
-  margin-right: 200px;
+  /* margin-right: 200px; */
 }
 .link {
   display: flex;
