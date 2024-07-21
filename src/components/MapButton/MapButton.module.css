@@ -1,0 +1,18 @@
+.btn {
+  font-family: Roboto;
+  padding: 8px 16px;
+  border-radius: 16px;
+  background-color: rgba(255, 107, 0, 1);
+  color: white;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 16px;
+  text-transform: uppercase;
+  margin-right: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    margin-right: 0;
+  }
+}

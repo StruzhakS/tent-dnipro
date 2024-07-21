@@ -1,0 +1,86 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url('../../images/heroImage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 66px;
+}
+
+.title {
+  color: rgba(17, 5, 65, 0.72);
+  font-family: Oswald;
+  font-size: min(9vw, 96px);
+  font-weight: 700;
+  line-height: 0.75;
+  letter-spacing: 0.22em;
+}
+
+.styledTitle {
+  color: rgba(255, 107, 0, 1);
+  font-family: Open Sans;
+  font-size: 11vw;
+  font-size: min(10vw, 150px);
+  font-weight: 800;
+  line-height: 0.75;
+  letter-spacing: 0.33em;
+}
+
+.subTitle {
+  color: rgba(17, 5, 65, 0.72);
+  font-family: Open Sans;
+  font-size: 40px;
+  font-size: min(4vw, 40px);
+  font-weight: 800;
+  line-height: 1.01;
+  letter-spacing: 0.08em;
+  margin-bottom: 42px;
+  text-transform: uppercase;
+}
+
+.styledSubTitle {
+  font-family: Open Sans;
+  font-size: min(3vw, 34px);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.linkWrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-right: 200px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: rgba(255, 107, 0, 1);
+  font-family: Roboto;
+  line-height: 1;
+  border: 1px solid rgba(255, 107, 0, 1);
+  border-radius: 999px;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.link:hover {
+  border: 1px solid rgba(255, 107, 0, 1);
+}
+
+.link:hover > img {
+  scale: 1.2;
+}
+
+.img {
+  fill: red;
+}
