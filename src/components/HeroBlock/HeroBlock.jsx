@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './HeroBlock.module.css';
-import arrowR from '../../images/arrowRight.svg';
+import phone from '../../images/phone-tent.svg';
 
 const HeroBlock = () => {
   return (
@@ -8,16 +8,13 @@ const HeroBlock = () => {
       <div
         style={{
           maxWidth: '630px',
-          width: '100%',
-          paddingBottom: '150px',
-          paddingLeft: '20px',
+          width: '70%',
         }}
       >
         <div
           style={{
             display: 'inline-block',
             position: 'relative',
-            paddingBottom: '10px',
           }}
         >
           <h1 className={s.title}>
@@ -41,31 +38,18 @@ const HeroBlock = () => {
           </svg>
         </div>
 
-        <h2 className={s.subTitle}>
-          ВСЕГДА:
-          <span className={s.styledSubTitle}>
-            {' '}
-            качественно, без очереди, круглосуточно.
-          </span>
-        </h2>
+        <h2 className={s.subTitle}>ЗА 15 МИНУТ, БЕЗ ОЧЕРЕДИ!!!</h2>
         <div className={s.linkWrapper}>
-          <a href="tel:+380501589860" className={s.link}>
-            Позвонить
+          <a href="tel:+380503207522" className={s.link}>
             <img
-              src={arrowR}
+              src={phone}
               width={19}
               height={19}
               className={s.img}
               alt="arrowR logo"
             />
+            +380503207522
           </a>
-          {/* <a
-            href="#secondaryBlock"
-            className={`${s.link} ${s.btn} ${s.btnWhite} ${s.btnAnimate}`}
-          >
-            гео-локация
-            <img src={arrowR} width={19} height={19} alt="arrowR logo" />
-          </a> */}
         </div>
       </div>
     </section>

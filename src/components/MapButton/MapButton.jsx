@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './MapButton.module.css';
 
-const MapButton = () => {
+const MapButton = ({ desktop }) => {
   const handleOpenMaps = () => {
     const destination =
-      '76 Князя Володимира Великого, Дніпро, Дніпропетровська область, Україна';
+      'Мічуріна вул. 5, Слобожанський, Дніпропетровська область, Україна';
     const travelMode = 'driving';
 
     const url = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
@@ -15,7 +15,10 @@ const MapButton = () => {
   };
 
   return (
-    <button onClick={handleOpenMaps} className={s.btn}>
+    <button
+      onClick={handleOpenMaps}
+      className={`${s.btn} ${desktop ? s.desktop : s.mobile}`}
+    >
       Маршрут
     </button>
   );

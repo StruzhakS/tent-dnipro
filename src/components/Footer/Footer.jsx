@@ -32,17 +32,17 @@ const Footer = () => {
 
       <div className={s.footerContactWrapper}>
         <p className={s.footerAdress}>
-          <img src={pointFooter} alt="adress" /> Центральная 76, Днепропетровск
-          44635
+          <img src={pointFooter} alt="adress" /> Мічуріна вул. 5, Слобожанський,
+          Дніпропетровська область, 52005
         </p>
-        <a className={s.footerTel} href="tel:+380501589860">
+        <a className={s.footerTel} href="tel:+380503207522">
           <img src={phoneFooter} width={32} height={32} alt="tell " />
-          +380501589860
+          +380503207522
         </a>
 
-        <a className={s.emailLink} href="mailto:remonttent.dn@gmail.com">
+        <a className={s.emailLink} href="mailto:alex243660alex@gmail.com">
           <img src={email} width={32} height={32} alt="email logo" />
-          remonttent.dn@gmail.com
+          alex243660alex@gmail.com
         </a>
         {/* <SocialNetwork /> */}
       </div>
